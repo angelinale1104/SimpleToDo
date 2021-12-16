@@ -61,6 +61,13 @@ class MainActivity : AppCompatActivity() {
 
             saveItems()
         }
+
+        // Clearing all the items in the list when the clear button is pressed
+        findViewById<Button>(R.id.clear).setOnClickListener {
+            listOfTasks.clear()
+            adapter.notifyDataSetChanged()
+            saveItems()
+        }
     }
 
     // Save the data that the user has inputted
