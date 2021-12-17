@@ -4,7 +4,7 @@
 
 Submitted by: **Angelina Le**
 
-Time spent: **10** hours spent in total
+Time spent: **12** hours spent in total
 
 ## User Stories
 
@@ -27,13 +27,18 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![Simple TODO app walkthrough](https://user-images.githubusercontent.com/72471050/146596673-ef53c30a-26c0-4bb0-9660-e9d4e6b0a9e5.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Describe any challenges encountered while building the app:
+
+- I was struggling setting up the Android Studio app as well as all of the pre-requisite setup that is necessary to complete this prework.
+- I didn't have any prior experience with Kotlin and XML so I had a hard time trying to implement additional features (i.e tap a todo item in the list and bring up an edit screen for the todo item)
+- When I add the clear button, it messes up all of my UI due to the lack of constraints. However, after looking at the code for a bit longer, I realized that I forgot to include the Top/ Bottom/ Start/ End constraints for all of my components in the app (including my clear button). Thus, I added the constraints for all of the components and the UI looks like what I envision it to be.
+- I also spent quite a bit of time trying to figure out how to emulate the app in my Android phone using a USB cable. But I finally learned how to do it and I am very excited!
 
 ## License
 
